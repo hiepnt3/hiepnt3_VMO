@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" conten t="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="/Form-login/css/main.css">
+    <!-- link font -->
+    <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <form onsubmit="return false;" id="frm1" method="post">
+        <p>
+            <label>Tên đăng nhập</label>
+            <!-- focus username -->
+            <input type="text" onkeyup="checkRequired()" class="txt" id="un" name="un" placeholder="Nhập 6-20 ký tự"
+                autofocus />
+        </p>
+        <p class="hold-eye">
+            <label>Mật khẩu</label>
+            <input type="password" onkeyup="checkRequired()" class="txt" id="mk" name="mk" placeholder="Mật khẩu" />
+            <span class='ab'><i class="fas fa-eye" onclick="togglePass()"></i></span>
+
+        </p>
+        <p>
+            <label></label>
+            <button type="submit" name="btnlogin" id="btnlogin" value="nut" onclick="show_alert()">
+                Đăng nhập
+            </button>
+        </p>
+    </form>
+
+</body>
+<!-- link JS -->
+<script src="/Form-login/js/main.js"></script>
+
+</html>

@@ -1,0 +1,34 @@
+#frm1 {
+    width: 600px;
+    margin: auto;
+    border: 2px solid darkslategrey;
+    padding: 10px
+}
+
+#frm1 label {
+    color: darkslategray;
+    width: 120px;
+    display: inline-block;
+}
+#frm1 .txt {
+    width: 450px;
+    padding: 8px;
+    border: 1px solid lightcoral;
+}
+
+#frm1 button {
+    width: 120px;
+    height: 40px;
+}
+#frm1 .hold-eye {
+    position: relative;
+}
+#frm1 .ab{
+    display: flex;
+        align-items: center;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 15px;
+        cursor: pointer;
+}
